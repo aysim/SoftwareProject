@@ -107,7 +107,8 @@ class ClientAsync extends AsyncTask<String,Void,String>{
         String response = "";
         try{
             //url of the server
-            URL url = new URL("https://eternal-wavelet-89421.appspot.com/"+strs[0]);
+            //dont forget to change project id
+            URL url = new URL("https://xxxx.appspot.com/"+strs[0]);
 
 
             //encoding parameters !
